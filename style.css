@@ -174,8 +174,8 @@ input:-webkit-autofill:focus {
 .sky-bg {
     background: #ffffff;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #fac105 0%, #fbff11 100%); 
-    /* background: linear-gradient(to bottom, #faa805 0%, #ff1111 100%);  */
+    /* background: linear-gradient(to bottom, #fac105 0%, #fbff11 100%);  */
+    background: linear-gradient(to bottom, #3298ff 0%, #f63232 100%); 
     /* background: linear-gradient(to bottom, rgb(5 184 250) 0%, rgb(17 255 209 100%);  */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
@@ -657,8 +657,8 @@ input:-webkit-autofill:focus {
     padding: 50px 40px;
     border-radius: 2px;
     text-align: center;
-    background-color: #ffffff;
-    color: #515656;
+    background-color: #ffffffb3;
+    color: #000;
     position: relative;
     margin-top: 20px
 }
