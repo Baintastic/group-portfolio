@@ -131,9 +131,9 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 120px 0; 
 }
-
+/* 240px */
 .social-menu {
     list-style: none;
     margin: 0;
@@ -175,9 +175,13 @@ input:-webkit-autofill:focus {
     background: #ffffff;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
     /* background: linear-gradient(to bottom, #fac105 0%, #fbff11 100%);  */
-    background: linear-gradient(to bottom, #3298ff 0%, #f63232 100%); 
+    background: linear-gradient(to bottom, #e66587 0%, #f09458 100%); 
     /* background: linear-gradient(to bottom, rgb(5 184 250) 0%, rgb(17 255 209 100%);  */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    color: #ffffff;
+}
+
+.white-text{
     color: #ffffff;
 }
 
@@ -185,7 +189,7 @@ input:-webkit-autofill:focus {
     background-color: #ffffff;
 }
 .header-area {
-    background: #000000 url('images/forest_12.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/notebook.jpg') no-repeat scroll center center / cover;
 }
 .gray-bg {
     background-color: #fafafa;
@@ -430,6 +434,7 @@ input:-webkit-autofill:focus {
 .screen-slider .owl-controls .owl-nav {
     position: relative;
     margin-top: 0;
+    color: white;
 }
 
 .screen-slider .owl-controls .owl-nav:after {
@@ -438,7 +443,7 @@ input:-webkit-autofill:focus {
     left: 50%;
     top: 12px;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 /**
@@ -646,9 +651,9 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-    background: url('./images/forest_12.jpg') no-repeat scroll center center / cover
+    /* background: url('./images/forest_12.jpg') no-repeat scroll center center / cover */
 }
-
+/* #222 */
 .price-table h3 {
     margin-bottom: 30px;
 }

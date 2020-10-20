@@ -43,7 +43,7 @@
     }
     .header-area {
         padding-top: 120px;
-        padding-bottom: 100px;
+        padding-bottom: 150px;
         height: auto;
     }
     .page-title h2,
@@ -54,7 +54,7 @@
         margin-top: 20px;
     }
     .mainmenu-area .navbar-toggle .icon-bar {
-        background-color: #ffffff;
+        background-color: black;
     }
     .mainmenu-area #primary-menu {
         background-color: #ffffff;
