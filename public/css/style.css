@@ -1,0 +1,157 @@
+*{
+
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    
+   
+    
+  
+}
+
+/*section{
+
+        height: 100vh;
+        width: 100%;
+        background-color: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     
+}*/
+
+
+/*.container{
+
+    padding:20px; 
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px #000 ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(197, 197, 137);
+    
+}*/
+
+.container .form-group{
+
+    padding-bottom: 0px;
+   
+}
+
+.container label{
+
+    display:block;
+   
+  
+}
+
+.container input[type="text"], .my-form textarea{   /*this considers every input - button aswell*/
+					/*the [text] attribute considers text input areas only*/
+
+	padding:8px;
+	width: 50%;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+}
+
+.container input[type="email"], .my-form textarea{   /*this considers every input - button aswell*/
+    /*the [text] attribute considers text input areas only*/
+
+    padding:8px;
+    width: 50%;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+}
+
+.container textarea[type="message"], .my-form textarea{   
+
+    padding:8px;
+    width: 50%;
+    color: #000;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+textarea{
+
+    resize: vertical;
+
+}
+
+button[type="submit"]{
+
+    width: 20%;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center center;
+    cursor: pointer;
+    margin-top: 0px;
+    padding: 5px;
+    transition: 2s ease background-color;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(185, 129, 157);
+    color: aliceblue;
+}
+
+#status{
+
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#status.success{
+
+    background-color: none;
+    animation: status 4s ease forwards;
+    
+}
+
+#status.error{
+
+    background-color: orangered;
+    color: white;
+    animation: status 4s ease forwards;
+
+}
+
+@keyframes status{
+
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90%{
+
+        opacity: 1;
+        pointer-events: none;
+    }
+
+    100%{
+
+        opacity: 0;
+        pointer-events: none;
+    }
+
+
+}
