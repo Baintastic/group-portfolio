@@ -43,7 +43,7 @@
         </div>
     </div>
     <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+    <div class="mainmenu-area affix" data-offset-top="100">
         <div class="container">
             <!--Logo-->
             <div class="navbar-header">
@@ -67,7 +67,7 @@
                 </ul>
             </nav>
         </div>
-    </div>s
+    </div>
     <!--Mainmenu-area/-->
 
 
@@ -283,6 +283,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-sm-offset-2">
                     <div class="price-table">
+                        <span class="price-info"><span class="ti-crown"></span></span>
                         <h3 class="text-uppercase price-title">Basic</h3>
                         <hr>
                         <ul class="list-unstyled">
@@ -290,8 +291,7 @@
                             <li>5 Page Website Design</li>
                             <li>12 Months Free Hosting</li>
                             <li>Free Domain Registration</li>
-                            <li style="padding-top: 32px;"></li>
-                        
+                            <li class="pricetable-padding"></li>                       
                         </ul>
                         <hr>
                         <a href="#contact" class="button">Enquire Now</a>
@@ -520,7 +520,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 <div class="col-xs-12 col-md-4">
                     <address class="side-icon-boxes">
                         <div class="side-icon-box">
@@ -636,3 +636,8 @@
 </body>
 
 </html>
+<script>
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+</script>
